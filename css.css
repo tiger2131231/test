@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Roboto;
+    background-image: linear-gradient(190deg,black), url("./img/bgr.jpeg");
+}
+.body{
+
+}
+.background img{
+    width: 100%;
+}
+.header{
+position: relative;
+padding: 50px 100px;
+}
+.logo{
+width: 5%;
+display: flex;
+}
+.logo>.tiller_logo{
+    padding: 50px 100px;
+}
+.tiller_logo span{
+position: absolute;
+font-size: 10px;
+}
+.tiller_logo{
+    color: forestgreen;
+    position: absolute;
+    top: 18px;
+    left: 74px;
+}
+.nav_item{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+.nav_menu{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 84px;
+    font-size: 19px;
+    left: 351px;
+    color: gray;
+}
+.nav_menu li{
+    padding: 0 75px;
+}
+.logo_body{
+}
+.tiller_body1{
+display: flex;
+}
+.tiller_body1 h3{
+color: grey;
+}
+.tiller_body1 i{
+color: green;
+}
